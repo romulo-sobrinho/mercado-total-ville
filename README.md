@@ -3,6 +3,7 @@
 <h1 align="center">Mercado Total Ville</h1>
 
 <h3 align="center">🚧PÁGINA EM CONSTRUÇÃO🚧</h3>
+<hr>
 
 <p align="center">A página de captura tem como única finalidade conseguir o contato do visitante para transformá-lo em uma lead (cliente em potencial). 
 Ela é uma etapa dentro da estratégia de geração de leads.
