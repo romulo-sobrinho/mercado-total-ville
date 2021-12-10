@@ -2,6 +2,7 @@
 ![Logo](https://user-images.githubusercontent.com/68918326/145571249-43b90124-b7d6-4ccf-b7dd-8948d255cd39.PNG)
 <h1 align="center">Mercado Total Ville</h1>
 
+<hr>
 <h3 align="center">🚧PÁGINA EM CONSTRUÇÃO🚧</h3>
 <hr>
 
