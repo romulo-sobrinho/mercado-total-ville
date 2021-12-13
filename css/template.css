@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -38,7 +40,6 @@ nav {
 
 .menu {
   height: 90%;
-  list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -59,7 +60,6 @@ nav {
 
 .menu a {
   color: #2D2D2D;
-  text-decoration: none;
 }
 
 .menu a:hover {
