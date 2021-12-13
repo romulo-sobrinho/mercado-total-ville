@@ -20,7 +20,7 @@
 
 ## Objetivo
 <p align="center">
-  Criar um site apenas com HTML e CSS onde possa se divulgar produtos e serviços, favorecendo uma ampla publicidade do comércio local.
+  Criar um site apenas com HTML e CSS onde lojas possam divulgar seus produtos e serviços, englobando telefone para contato, endereço, horário de funcionamento, entre outros, favorecendo uma ampla publicidade do comércio local.
 </p>
 
 
