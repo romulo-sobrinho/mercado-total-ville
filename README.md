@@ -9,7 +9,7 @@
 
 
 
-<p align="center">Mercado Total Ville é um site que está sendo desenvolvido para ser o elo entre lojas e seus clientes. Um site em que o usuário busca encontrar uma variedade de produtos e serviços em um único ambiente</p>
+<p align="center">Mercado Total Ville é um site que está sendo desenvolvido para ser o elo entre lojas e seus clientes. Um site em que o usuário busca encontrar uma variedade de produtos e serviços em um único ambiente.</p>
 
 <p align="center">
   <a href="#objetivo">Objetivo</a> |
