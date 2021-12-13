@@ -1,0 +1,68 @@
+main {
+  /*background-color: aqua;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 60%;
+  height: 95%;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  background-color: white;
+}
+
+.section h2 {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #7A4C21;
+  color: white;
+  font-size: 1.7rem;
+  box-sizing: border-box;
+}
+
+.section h3 {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: #CFA883;
+  color: white;
+  font-size: 1.7rem;
+  box-sizing: border-box;
+}
+
+.section h4 {
+  width: 100%;
+  padding: 5px;
+  margin: 0px 0px 10px;
+  background-color: #CC9553;
+  color: white;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+.mais_pedido {
+  width: 300px;
+  /*border: 1px solid red;*/
+}
+
+.mais_pedido img {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #7A4C21;
+  color: white;
+  font-size: 1rem;
+}
