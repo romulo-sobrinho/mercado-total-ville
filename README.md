@@ -9,9 +9,7 @@
 
 
 
-<p align="center">A página de captura tem como única finalidade conseguir o contato do visitante para transformá-lo em uma lead (cliente em potencial). 
-Ela é uma etapa dentro da estratégia de geração de leads.
-Normalmente, o visitante inscreve-se na página de captura passando seu email e em troca ele recebe, por exemplo, um ebook, infográfico, whitepaper, vídeo, entre outros. </p>
+<p align="center">Mercado Total Ville é um site que está sendo desenvolvido para ser o elo entre lojas e seus clientes. Um site em que o usuário busca encontrar uma variedade de produtos e serviços em um único ambiente.</p>
 
 <p align="center">
   <a href="#objetivo">Objetivo</a> |
@@ -22,7 +20,7 @@ Normalmente, o visitante inscreve-se na página de captura passando seu email e 
 
 ## Objetivo
 <p align="center">
-  Criar uma página de captura que possa servir como primeiro contato com clientes em potenciais
+  Criar um site apenas com HTML e CSS onde lojas possam divulgar seus produtos e serviços, englobando telefone para contato, endereço, horário de funcionamento, entre outros, favorecendo uma ampla publicidade do comércio local.
 </p>
 
 
