@@ -19,16 +19,14 @@ main {
   letter-spacing: 1px;
 }
 
-.section h3 {
-  color: #3D2610;
-  font-weight: 100;
-  font-size: 1rem;
-}
-
 .section h2 {
   color: #7A4C21;
   font-size: 1.7rem;
   font-weight: bold;
+}
+
+.section h2:hover {
+  color: #CFA883;
 }
 
 .container_comidas {
@@ -54,12 +52,22 @@ main {
   flex-wrap: wrap;
 }
 
+.section h3 {
+  color: #3D2610;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
 .img_delivery {
-  width: 135px;
-  height: 125px;
+  width: 115px;
+  height: 100px;
   border-radius: 50%;
-  box-shadow: 5px 5px 10px rgb(114, 93, 93);
+  box-shadow: -5px 5px 10px rgb(114, 93, 93);
   margin-top: 5px;
+}
+
+.img_delivery:hover {
+  box-shadow: 5px 5px 20px rgb(80, 66, 66);
 }
 
 .card {
@@ -68,4 +76,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.card:hover > h3 {
+  color: #CFA883;
 }

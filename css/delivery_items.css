@@ -1,14 +1,16 @@
 main {
   /*background-color: aqua;*/
+  height: 1000px;
+
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .section {
   width: 60%;
-  height: 95%;
   padding: 10px;
+  margin-top: 10px;
 
   display: flex;
   flex-direction: column;
@@ -28,6 +30,51 @@ main {
   box-sizing: border-box;
 }
 
+.mais_pedido {
+  width: 300px;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 10px rgb(114, 93, 93);
+  /*border: 1px solid red;*/
+}
+
+.mais_pedido img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mais_pedido h4 {
+  width: 100%;
+  padding: 5px;
+  background-color: #CC9553;
+  color: white;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+.title_items {
+  margin: 10px 0px 2px 0px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #3D2610;
+}
+
+.mais_pedido button {
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px 15px 0px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(114, 93, 93);
+  background-color: #7A4C21;
+  color: white;
+  font-size: 1rem;
+}
+
+.mais_pedido button:hover {
+  background-color: #CFA883;
+  box-shadow: 5px 5px 20px rgb(80, 66, 66);
+}
+
 .section h3 {
   width: 100%;
   padding: 5px;
@@ -38,31 +85,45 @@ main {
   box-sizing: border-box;
 }
 
-.section h4 {
+.lista_completa {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 140px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgb(114, 93, 93);
+}
+
+.card img {
   width: 100%;
-  padding: 5px;
-  margin: 0px 0px 10px;
-  background-color: #CC9553;
-  color: white;
-  font-size: 1.5rem;
   box-sizing: border-box;
 }
 
-.mais_pedido {
-  width: 300px;
-  /*border: 1px solid red;*/
-}
-
-.mais_pedido img {
+.card h4 {
   width: 100%;
-  border-radius: 5px 5px 0px 0px;
-}
-
-button {
-  margin-top: 10px;
-  padding: 10px 25px;
-  border-radius: 5px;
-  background-color: #7A4C21;
+  padding: 5px;
+  background-color: #CC9553;
   color: white;
   font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.card button {
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(114, 93, 93);
+  background-color: #7A4C21;
+  color: white;
+  font-size: 0.6rem;
+}
+
+.card button:hover {
+  background-color: #CFA883;
+  box-shadow: 5px 5px 20px rgb(80, 66, 66);
 }
