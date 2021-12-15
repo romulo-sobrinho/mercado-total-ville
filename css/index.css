@@ -12,6 +12,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: moveBanner 1.5s;/*recebendo o keyframe*/
+}
+
+@keyframes moveBanner {/*Esse keyframe é para dar uma animação de subir no banner com as imagens (no caso é a div container) da página index.html*/
+  0% {
+    opacity: 0.7;
+    transform: translateY(20rem) rotateY(90deg);
+  }
+  100% {
+    transform: scale(1);
+    transform: translateY(0) rotateY(0);
+  }
 }
 
 .card {

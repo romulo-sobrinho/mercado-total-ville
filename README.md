@@ -37,7 +37,7 @@
   [ ] Tornar o menu do site responsivo <br>
   [ ] Tornar os cards das empresas responsivos <br>
   [ ] Tornar todas as páginas totalmente responsivas <br>
-  [ ] Animar o banner da página index com CSS <br>
+  ✔️ Animar o banner da página index com @keyframes <br>
   
     
 
