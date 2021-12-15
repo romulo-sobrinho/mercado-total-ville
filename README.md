@@ -44,10 +44,7 @@
 ## Preview
 
 #### Gif da página index
-![MTV](https://user-images.githubusercontent.com/68918326/145570728-09f41bf3-c750-4ed3-b10b-adbac1abedef.gif)
-
-#### Imagem da página index
-![preview mercado total ville](https://user-images.githubusercontent.com/68918326/145570288-a8b06e4a-e829-46a8-a972-681ad04e20b0.PNG)
+![MTV_index](https://user-images.githubusercontent.com/68918326/146215696-b9146e9a-02a3-47ee-81d5-9a34176d5e3c.gif)
 
 
 <hr>
