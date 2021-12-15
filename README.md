@@ -20,13 +20,24 @@
 
 ## Objetivo
 <p align="center">
-  Criar um site apenas com HTML e CSS onde lojas possam divulgar seus produtos e serviços, englobando telefone para contato, endereço, horário de funcionamento, entre outros, favorecendo uma ampla publicidade do comércio local.
+  Criar um site apenas com HTML e CSS onde lojas e comerciantes autônomos possam divulgar seus produtos e serviços, englobando dados como: whatsapp, endereço, horário de funcionamento, imagem ou logo da sua empresa, entre outros, favorecendo uma ampla publicidade do comércio local para a população de um determinado condomínio residencial.
 </p>
 
 
 ## Features
 
-  EM CONSTRUÇÃO
+  ✔️ Criar estrutura HTML <br>
+  ✔️ Criar páginas templates <br>
+  ✔️ Criar arquivo css template <br>
+  ✔️ Utilizar corretamente as metatags <br>
+  ✔️ Utilizar corretamente as tags semânticas do HTML5 <br>
+  ✔️ Criar menu horizontal com flexbox <br>
+  ✔️ Criar mudanças no menu ao passar o mouse <br>
+  ✔️ Utilizar flexbox para gerenciar posicionamento dos itens nas páginas <br>
+  [ ] Tornar o menu do site responsivo <br>
+  [ ] Tornar os cards das empresas responsivos <br>
+  [ ] Tornar todas as páginas totalmente responsivas <br>
+  [ ] Animar o banner da página index com CSS <br>
   
     
 
