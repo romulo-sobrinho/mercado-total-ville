@@ -1,6 +1,6 @@
 main {
   /*background-color: aqua;*/
-  height: 1000px;
+  height: 100%;
 
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@ main {
 .section {
   width: 60%;
   padding: 10px;
-  margin-top: 10px;
+  margin: 10px;
 
   display: flex;
   flex-direction: column;
@@ -30,19 +30,19 @@ main {
   box-sizing: border-box;
 }
 
-.mais_pedido {
+.container_mais_pedido {
   width: 300px;
   margin-bottom: 5px;
   box-shadow: 5px 5px 10px rgb(114, 93, 93);
   /*border: 1px solid red;*/
 }
 
-.mais_pedido img {
+.container_mais_pedido img {
   width: 100%;
   box-sizing: border-box;
 }
 
-.mais_pedido h4 {
+.container_mais_pedido h4 {
   width: 100%;
   padding: 5px;
   background-color: #CC9553;
@@ -58,7 +58,7 @@ main {
   color: #3D2610;
 }
 
-.mais_pedido button {
+.container_mais_pedido button {
   border: none;
   cursor: pointer;
   margin: 10px 0px 15px 0px;
@@ -70,7 +70,7 @@ main {
   font-size: 1rem;
 }
 
-.mais_pedido button:hover {
+.container_mais_pedido button:hover {
   background-color: #CFA883;
   box-shadow: 5px 5px 20px rgb(80, 66, 66);
 }
@@ -85,9 +85,11 @@ main {
   box-sizing: border-box;
 }
 
-.lista_completa {
+.container_lista_completa {
+  max-width: 800px; /*Serve para deixar no máximo 5 cards por row*/
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 

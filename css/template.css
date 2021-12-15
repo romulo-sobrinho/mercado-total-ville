@@ -59,6 +59,7 @@ nav {
 }
 
 .menu a {
+  font-size: 0.8rem;
   color: #2D2D2D;
 }
 
@@ -73,7 +74,7 @@ nav {
 }
 
 main {
-  height: 560px;
+  height: 465px;
   background-color: rgb(227,227,227);
 }
 
@@ -83,10 +84,14 @@ footer {
 }
 
 .footer_author {
-  height: 7vh;
+  height: 8vh;
   background-color: rgb(251,251,251);
   color: #2D2D2D;
-  font-size: 2.2vh;
-  text-align: center;
-  line-height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  height: 80%;
 }
