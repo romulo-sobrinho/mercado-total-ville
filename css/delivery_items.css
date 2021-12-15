@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 main {
   /*background-color: aqua;*/
   height: 100%;
@@ -27,7 +31,6 @@ main {
   background-color: #7A4C21;
   color: white;
   font-size: 1.7rem;
-  box-sizing: border-box;
 }
 
 .container_mais_pedido {
@@ -39,7 +42,6 @@ main {
 
 .container_mais_pedido img {
   width: 100%;
-  box-sizing: border-box;
 }
 
 .container_mais_pedido h4 {
@@ -48,10 +50,9 @@ main {
   background-color: #CC9553;
   color: white;
   font-size: 1.5rem;
-  box-sizing: border-box;
 }
 
-.title_items {
+.container_mais_pedido > .title_items {
   margin: 10px 0px 2px 0px;
   font-weight: bold;
   font-size: 1.2rem;
@@ -82,7 +83,6 @@ main {
   background-color: #CFA883;
   color: white;
   font-size: 1.7rem;
-  box-sizing: border-box;
 }
 
 .container_lista_completa {
@@ -101,7 +101,6 @@ main {
 
 .card img {
   width: 100%;
-  box-sizing: border-box;
 }
 
 .card h4 {
@@ -110,7 +109,17 @@ main {
   background-color: #CC9553;
   color: white;
   font-size: 1rem;
-  box-sizing: border-box;
+}
+
+.card > .title_items {
+  margin: 10px 0px 2px 0px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #3D2610;
+}
+
+.card p {
+  font-size: 0.8rem;
 }
 
 .card button {
