@@ -34,13 +34,13 @@
   ✔️ Criar menu horizontal com flexbox <br>
   ✔️ Criar mudanças no menu ao passar o mouse <br>
   ✔️ Utilizar flexbox para gerenciar posicionamento dos itens nas páginas <br>
-  [ ] Tornar o menu do site responsivo <br>
-  [ ] Tornar os cards das empresas responsivos <br>
-  [ ] Tornar todas as páginas totalmente responsivas <br>
-  ✔️ Animar o banner da página index com @keyframes <br>
+  [ ] Tornar o menu do site responsivo com @media queries <br>
+  [ ] Tornar os cards das empresas responsivos com @media queries <br>
+  [ ] Tornar todas as páginas totalmente responsivas  com @media queries <br>
+  ✔️ Animar o banner da página index com @keyframe <br>
+  ✔️ Animar os cards das empresas com @keyframe <br>
   
     
-
 ## Preview
 
 #### Gif da página index

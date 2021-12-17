@@ -40,6 +40,10 @@ main {
   /*border: 1px solid red;*/
 }
 
+.container_mais_pedido:hover {
+  animation: moveCard 1s;
+}
+
 .container_mais_pedido img {
   width: 100%;
 }
@@ -97,6 +101,20 @@ main {
   width: 140px;
   margin: 10px;
   box-shadow: 5px 5px 10px rgb(114, 93, 93);
+}
+
+.card:hover {
+  animation: moveCard 1s;
+}
+
+@keyframes moveCard {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-0.5rem);
+  }
 }
 
 .card img {
