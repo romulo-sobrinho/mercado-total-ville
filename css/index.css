@@ -6,6 +6,7 @@ main {
 
 .container {
   width: 60%;
+  min-width: 800px;
   height: 95%;
   padding: 10px;
   padding-top: 10px;
@@ -27,8 +28,8 @@ main {
 }
 
 .card {
-  width: 165px;
-  height: 455px;
+  width: 18%;
+  height: 100%;
   padding: 0px;
   margin: 0px 5px;
   display: flex;
@@ -37,7 +38,7 @@ main {
 
 .card img {
   width: 100%;
-  height: 420px;
+  height: 90%;
 }
 
 .card_down {

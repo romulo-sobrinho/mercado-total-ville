@@ -41,9 +41,11 @@ nav {
 }
 
 .menu {
+  width: 100%;
+  max-width: 980px;
   height: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   overflow: hidden;
 }
