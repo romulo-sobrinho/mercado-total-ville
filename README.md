@@ -31,6 +31,7 @@
   ✔️ Criar arquivo css template <br>
   ✔️ Utilizar corretamente as metatags <br>
   ✔️ Utilizar corretamente as tags semânticas do HTML5 <br>
+  ✔️ Utilizar unidades de medidas relativas - REM - nos textos <br>
   ✔️ Criar menu horizontal com flexbox <br>
   ✔️ Criar mudanças no menu ao passar o mouse <br>
   ✔️ Utilizar flexbox para gerenciar posicionamento dos itens nas páginas <br>

@@ -30,7 +30,7 @@ main {
   margin-bottom: 10px;
   background-color: #7A4C21;
   color: white;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 
 .container_mais_pedido {
@@ -60,14 +60,18 @@ main {
   padding: 5px;
   background-color: #CC9553;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 
 .container_mais_pedido > .title_items {
   margin: 10px 0px 2px 0px;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: #3D2610;
+}
+
+.container_mais_pedido p {
+  font-size: 1.4rem;
 }
 
 .container_mais_pedido button {
@@ -79,7 +83,7 @@ main {
   box-shadow: 5px 5px 10px rgb(114, 93, 93);
   background-color: #7A4C21;
   color: white;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .container_mais_pedido button:hover {
@@ -93,7 +97,7 @@ main {
   margin-top: 10px;
   background-color: #CFA883;
   color: white;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 
 .container_lista_completa {
@@ -111,7 +115,7 @@ main {
 }
 
 .card:hover {
-  animation: moveCard 1s;
+  animation: moveCard 0.5s;
 }
 
 @keyframes moveCard {
@@ -120,7 +124,7 @@ main {
   }
 
   100% {
-    transform: translateY(-0.5rem);
+    transform: translateY(-0.6rem);
   }
 }
 
@@ -133,18 +137,18 @@ main {
   padding: 5px;
   background-color: #CC9553;
   color: white;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .card > .title_items {
   margin: 10px 0px 2px 0px;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #3D2610;
 }
 
 .card p {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .card button {
@@ -156,7 +160,7 @@ main {
   box-shadow: 5px 5px 10px rgb(114, 93, 93);
   background-color: #7A4C21;
   color: white;
-  font-size: 0.6rem;
+  font-size: 0.96rem;
 }
 
 .card button:hover {
