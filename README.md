@@ -46,6 +46,9 @@
 #### Gif da página index
 ![MTV_index](https://user-images.githubusercontent.com/68918326/146215696-b9146e9a-02a3-47ee-81d5-9a34176d5e3c.gif)
 
+#### Gif da animação dos cards das empresas
+![MTV_cardsCompany2](https://user-images.githubusercontent.com/68918326/146558925-78cfdc70-6b49-4833-a69b-55caa26e5096.gif)
+
 
 <hr>
 <h3 align="center">🚧PÁGINA EM CONSTRUÇÃO🚧</h3>

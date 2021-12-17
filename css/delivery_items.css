@@ -43,16 +43,12 @@ main {
 
 @keyframes upCard {
   0% {
-    transform: translateX(15rem);
+    transform: translateX(10rem);
   }
 
   100% {
     transform: translateX(0);
   }
-}
-
-.container_mais_pedido:hover {
-  animation: moveCard 1s;
 }
 
 .container_mais_pedido img {
