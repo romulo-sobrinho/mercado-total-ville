@@ -37,7 +37,18 @@ main {
   max-width: 300px;
   margin-bottom: 5px;
   box-shadow: 5px 5px 10px rgb(114, 93, 93);
+  animation: upCard 1s;
   /*border: 1px solid red;*/
+}
+
+@keyframes upCard {
+  0% {
+    transform: translateX(15rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .container_mais_pedido:hover {
