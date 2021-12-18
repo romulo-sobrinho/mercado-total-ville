@@ -5,42 +5,54 @@ main {
 }
 
 .container {
-  width: 60%;
+  /*width: 60%;*/
   min-width: 800px;
-  height: 95%;
+  /*height: 60vh;*/
+  height: 470px;
   padding: 10px;
-  padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: moveBanner 1.5s;/*recebendo o keyframe*/
-}
-
-@keyframes moveBanner {/*Esse keyframe é para dar uma animação de subir no banner com as imagens (no caso é a div container) da página index.html*/
-  0% {
-    opacity: 0.7;
-    transform: translateY(20rem) rotateY(90deg);
-  }
-  100% {
-    transform: scale(1);
-    transform: translateY(0) rotateY(0);
-  }
 }
 
 .card {
-  width: 18%;
+  width: 22%;
   height: 100%;
   padding: 0px;
-  margin: 0px 5px;
-  display: flex;
-  justify-content: center;
+  margin: 0px 3px;
+  border: 4px solid white;
+}
+
+.card_direita {
+  animation: moveCardDireita 0.7s;/*recebendo o keyframe*/
+}
+
+.card_esquerda {
+  animation: moveCardEsquerda 0.7s;/*recebendo o keyframe*/
+}
+
+@keyframes moveCardDireita {/*Esse keyframe é para dar uma animação de subir no banner com as imagens (no caso é a div container) da página index.html*/
+  0% {
+    opacity: 0.4;
+    transform: translateX(-40rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveCardEsquerda {/*Esse keyframe é para dar uma animação de subir no banner com as imagens (no caso é a div container) da página index.html*/
+  0% {
+    opacity: 0.5;
+    transform: translateX(40rem);
+  }
+  100% {
+    transform: scale(1);
+    transform: translateX(0);
+  }
 }
 
 .card img {
   width: 100%;
-  height: 90%;
-}
-
-.card_down {
-  align-items: end;
+  height: 100%;
 }

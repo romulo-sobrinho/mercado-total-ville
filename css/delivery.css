@@ -6,27 +6,31 @@ main {
 }
 
 .section {
-  width: 60%;
+  max-width: 830px;
+  /*width: 60%;*/
   height: 85%;
-  padding: 40px 10px 10px;
+  margin: 10px;
+  padding: 10px;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 
+  background-color: white;
+
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
 
 .section h2 {
-  color: #7A4C21;
-  font-size: 2.72rem;
-  font-weight: bold;
-}
-
-.section h2:hover {
-  color: #CFA883;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #7A4C21;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .container_comidas {
@@ -55,7 +59,7 @@ main {
 .section h3 {
   color: #3D2610;
   font-weight: 100;
-  font-size: 1.28rem;
+  font-size: 1.5rem;
 }
 
 .img_delivery {

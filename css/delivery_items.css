@@ -3,7 +3,6 @@
 }
 
 main {
-  /*background-color: aqua;*/
   height: 100%;
 
   display: flex;
@@ -12,7 +11,8 @@ main {
 }
 
 .section {
-  width: 60%;
+  max-width: 830px;
+  /*width: 60%;*/
   padding: 10px;
   margin: 10px;
 
