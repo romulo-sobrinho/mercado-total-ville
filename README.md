@@ -1,5 +1,5 @@
 
-![Logo](https://user-images.githubusercontent.com/68918326/145571249-43b90124-b7d6-4ccf-b7dd-8948d255cd39.PNG)
+![Banner_logo](https://user-images.githubusercontent.com/68918326/146658202-c9551746-30e2-442c-b5c8-1961f7f4a566.PNG)
 
 <hr>
 <h3 align="center">🚧PÁGINA EM CONSTRUÇÃO🚧</h3>
@@ -45,10 +45,10 @@
 ## Preview
 
 #### Gif da página index
-![MTV_index](https://user-images.githubusercontent.com/68918326/146215696-b9146e9a-02a3-47ee-81d5-9a34176d5e3c.gif)
+![MTV_index2](https://user-images.githubusercontent.com/68918326/146658050-7def76a4-9563-4f1f-ac71-be4904de4639.gif)
 
-#### Gif da animação dos cards das empresas
-![MTV_cardsCompany2](https://user-images.githubusercontent.com/68918326/146558925-78cfdc70-6b49-4833-a69b-55caa26e5096.gif)
+#### Gif demonstrativo de usuabilidade do site
+![MTV_usuabilidade](https://user-images.githubusercontent.com/68918326/146658165-2d8cfd53-4f57-4380-ba9d-f09fb99bd4cd.gif)
 
 
 <hr>
