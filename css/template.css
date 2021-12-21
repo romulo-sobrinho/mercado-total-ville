@@ -119,66 +119,58 @@ footer img {
 
 
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
+  /*Diminuir o menu*/
+  html {
+    font-size: 57%;
+  }
+
   .menu li {
-    letter-spacing: 3px;
+    letter-spacing: 2.5px;
     padding: 16px 40px;
-    margin: 0 2px;
-    transition: 0.3s;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  /*Diminuir o menu e imagem*/
+  html {
+    font-size: 57%;
+  }
+
+  .menu li {
+    letter-spacing: 2px;
+    padding: 16px 30px;
+  }
+}
+
+@media screen and (max-width: 590px) {
   html {
     font-size: 50%;
   }
 
   .menu li {
-    letter-spacing: 3px;
-    padding: 16px 25px;
-    margin: 0 2px;
-    transition: 0.3s;
+    letter-spacing: 2px;
+    padding: 16px 16px;
+  }
+
+  .img_logo {
+    width: 260px;
+    height: 100px;
   }
 }
 
-@media (max-width: 570px) {
+@media screen and (max-width: 428px) {
   html {
     font-size: 45%;
   }
 
-  .logo {
-    height: 68%;
-  }
-  
   .menu li {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 16px 16px;
-    margin: 0 2px;
-    transition: 0.3s;
-  }
-}
-
-@media (max-width: 425px) {
-  .logo {
-    height: 30%;
   }
 
-  .menu {
-    padding: 5px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .menu li {
-    min-width: 250px;
-    height: 10px;
-    letter-spacing: 2px;
-    padding: 2px;
-    margin: 2px 2px;
-    transition: 0.3s;
-    border: 1px solid #886337;
-    border-radius: 3px;
+  .img_logo {
+    width: 200px;
+    height: 80px;
   }
 }
