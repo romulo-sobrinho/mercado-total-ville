@@ -1,0 +1,159 @@
+/*Ubuntu*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+  --text-main: ubuntu, sans-serif;
+  --text-color-primary: #2D2D2D;
+  --text-color-secundary: #FBFBFB;
+  --font-size-html: 62.5%;
+  --font-size-body: 1.6rem;
+  --background-primary: rgb(227, 227, 227);
+  --background-secundary: rgb(251, 251, 251);
+  --btn-background-secundary: #CFA883;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: var(--font-size-html);
+}
+
+body {
+  font-size: var(--font-size-body);
+  font-family: var(--text-main);
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "header header header"
+    "nav      nav    nav"
+    "main   main   main"
+    "footer footer footer";
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: auto 120rem auto;
+}
+
+/* INÍCIO HEADER */
+.header {
+  background-color: var(--background-primary);
+  grid-area: header;
+
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo__text {
+  color: var(--text-color-primary);
+  font-size: 2.2rem;
+}
+
+.logo__img>img {
+  height: 100px;
+}
+
+/* INÍCIO HEADER */
+
+
+/* INÍCIO NAV */
+.menu {
+  background-color: var(--background-secundary);
+  grid-area: nav;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+
+  padding: 2px 0;
+}
+
+.menu a {
+  border-radius: 0.2rem;
+  color: var(--text-color-primary);
+  letter-spacing: 3px;
+  padding: 16px 60px;
+}
+
+.menu a:hover {
+  background-color: var(--btn-background-secundary);
+  color: var(--text-color-secundary);
+}
+
+.menu .btn_ativo {
+  background-color: #886337;
+  color: var(--text-color-secundary);
+}
+
+/* FIM NAV */
+
+/* INÍCIO MAIN */
+.main {
+  background-color: var(--background-primary);
+  grid-area: main;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.container__banner {
+  height: 500px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.banner img {
+  max-height: 460px;
+}
+
+.banner__2,
+.banner__3 {
+  align-self: flex-start;
+}
+
+/* FIM MAIN */
+
+/* INÍCIO FOOTER */
+.footer {
+  background-color: var(--background-secundary);
+  grid-area: footer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.footer_author {
+  color: var(--text-color-primary);
+  font-size: 1.8rem;
+}
+
+/* FIM FOOTER */
