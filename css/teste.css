@@ -10,6 +10,7 @@
   --background-primary: rgb(227, 227, 227);
   --background-secundary: rgb(251, 251, 251);
   --btn-background-secundary: #CFA883;
+  --btn-background-active: #886337;
 
 }
 
@@ -64,7 +65,7 @@ body {
 }
 
 .container__logo:hover .imageLogo {
-  animation: rotate360 1s linear infinite;
+  animation: expand 1s ease infinite;
 }
 
 .container__logo:hover .logo__text {
@@ -112,7 +113,7 @@ body {
 }
 
 .menu .btn_ativo {
-  background-color: #886337;
+  background-color: var(--btn-background-active);
   color: var(--text-color-secundary);
 }
 
@@ -139,11 +140,20 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
 
+.banner {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.banner:hover {
+  animation: upBanner 0.4s;
 }
 
 .banner img {
-  max-height: 460px;
+  height: 440px;
+  width: 180px;
   border: 6px solid white;
   border-radius: 0.2rem;
 }
@@ -193,10 +203,30 @@ body {
   }
 
   50% {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
 
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes upBanner {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes changeColorText {
+  0% {
+    color: #886337;
+  }
+
+  100% {
+    color: black;
   }
 }

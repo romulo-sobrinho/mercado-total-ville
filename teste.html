@@ -6,15 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/teste.css">
   <title>Document</title>
+  
 </head>
 <body>
+  
+
   <header class="header">
     <div class="container__logo">
-      <div class="logo__text">MERCADO</div>
+      <div onmouseover="mudarCursor()" class="logo__text">MERCADO</div>
       <div class="logo__img">
-        <img class="imageLogo"class="img" src="./images/template/logo2.png" alt="Imagem da logo">
+        <img id="i" class="imageLogo" class="img" src="./images/template/logo2.png" alt="Imagem da logo">
       </div>
-      <div class="logo__text">TOTALVILLE</div>
+      <div id="t" onmouseover="mudarCursor()" class="logo__text">TOTALVILLE</div>
     </div>
   </header>
   
@@ -28,15 +31,19 @@
 
   <main class="main">
     <div class="container__banner">
-      <div class="banner banner__1"><img src="./images/index/bannerpart1.jpg" alt="banner 1"></div>
-      <div class="banner banner__2"><img src="./images/index/bannerpart2.jpg" alt="banner 2"></div>
-      <div class="banner banner__3"><img src="./images/index/bannerpart3.jpg" alt="banner 3"></div>
-      <div class="banner banner__4"><img src="./images/index/bannerpart4.jpg" alt="banner 4"></div>
+      <div class="banner"><img id="imgBanner1" class="imgBanner" src="./images/index/bannerpart1.jpg" alt="banner 1"></div>
+      <div class="banner"><img id="imgBanner2" class="imgBanner" src="./images/index/bannerpart2.jpg" alt="banner 2"></div>
+      <div class="banner"><img id="imgBanner3" class="imgBanner" src="./images/index/bannerpart3.jpg" alt="banner 3"></div>
+      <div class="banner"><img id="imgBanner4" class="imgBanner" src="./images/index/bannerpart4.jpg" alt="banner 4"></div>
     </div>
   </main>
 
   <footer class="footer">
     <div class="footer_author"><img src="./images/template/rss.png" alt="Logotipo Front-end Developer Rômulo Sobrinho"></div>
   </footer>
+
+  <script src="teste.js"></script>
+  <script src="./changeImage.js"></script>
+  <!-- <script src="teste2.js"></script> -->
 </body>
 </html>
